@@ -20,7 +20,6 @@ chatbot = graph.compile(checkpointer=checkpointer)
     
     
 
-
 def retrieve_all_threads():
     all_threads = set()
     for checkpoint in checkpointer.list(None):
