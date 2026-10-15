@@ -4,7 +4,6 @@ from langchain_core.messages import HumanMessage, AIMessage
 from backend.graph import chatbot, retrieve_all_threads
 import uuid
 
-
 ######################## Utility Functions ########################
 
 def generate_thread_id():
