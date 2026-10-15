@@ -13,6 +13,7 @@ graph.add_node('chat_node', chat_node)
 graph.add_edge(START, 'chat_node')
 graph.add_edge('chat_node', END)
 
+
 conn = sqlite3.connect(database="chatbot.db", check_same_thread=False)
 
 checkpointer = SqliteSaver(conn=conn)
